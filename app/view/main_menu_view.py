@@ -1,4 +1,5 @@
 from dependency_injector.wiring import Provide, inject
+from sys import exit
 
 from ..utility.singleton_meta import SingletonMeta
 from ..utility.terminal import clear_screen
@@ -67,7 +68,7 @@ class MainMenuView(metaclass=SingletonMeta):
                           'to your team.')
                     self.__enter_option()
             case '3':
-                quit(0)
+                exit(0)
             case _:
                 print('Option does not exist, please try again. '
                       'You can choose between 1 to 3.')
