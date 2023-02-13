@@ -41,4 +41,14 @@ There are a number of aspects of the code that are important. An important aspec
 - Just in case any unforeseen errors occur, the application has been developed in Windows 10 with Python 3.11.
 - Unit tests are unfortantely not included, did not had time to fully do it :(
 
+## Design
+
 ![image](https://user-images.githubusercontent.com/49392728/218590988-12371936-3e16-40b8-85c6-61fed2ec686f.png)
+
+## Class Diagram
+
+![class_diagram](https://user-images.githubusercontent.com/49392728/218596214-919c13f6-f876-480e-8b8f-f523abc67c27.png)
+
+## Smaller overview class diagram
+
+![smaller_class_diagram](https://user-images.githubusercontent.com/49392728/218596797-038f2d13-a847-4043-aaeb-7766a5306010.png)
