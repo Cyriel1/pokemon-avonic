@@ -33,9 +33,10 @@ There are a number of aspects of the code that are important. An important aspec
 ## Side Notes:
 
 - Running the application in the Pycharm shell does not clear the console screen and outputs a "-symbol instead.
-- It is recommended to create an executable file and launch the application in a terminal, such as powershell or command prompt. Double-clicking the **.EXE** file in Windows is fine, but it can't display the logo (has to do with Windows to Linux conversion).
+- It is recommended to create an executable file and launch the application in a terminal, such as powershell or command prompt. Double-clicking the **.EXE** file in Windows is fine, but it can't display the logo (it's a console with fewer features).
 - Still want to run from source code? The best experience is by running in another shell, such as (again) powershell or command prompt.
     - Command needed to run application: 
       > python -m app
 - With the command **'make create_data'** you can generate random data, which means replay-ability!
 - Just in case any unforeseen errors occur, the application has been developed in Windows 10 with Python 3.11.
+- Unit tests are unfortantely not included, did not had time to fully do it :(
