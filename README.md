@@ -40,3 +40,5 @@ There are a number of aspects of the code that are important. An important aspec
 - With the command **'make create_data'** you can generate random data, which means replay-ability!
 - Just in case any unforeseen errors occur, the application has been developed in Windows 10 with Python 3.11.
 - Unit tests are unfortantely not included, did not had time to fully do it :(
+
+![image](https://user-images.githubusercontent.com/49392728/218590988-12371936-3e16-40b8-85c6-61fed2ec686f.png)
