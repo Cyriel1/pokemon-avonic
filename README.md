@@ -49,6 +49,6 @@ There are a number of aspects of the code that are important. An important aspec
 
 ![class_diagram](https://user-images.githubusercontent.com/49392728/218596214-919c13f6-f876-480e-8b8f-f523abc67c27.png)
 
-## Smaller overview class diagram
+## Smaller Overview Class Diagram
 
 ![smaller_class_diagram](https://user-images.githubusercontent.com/49392728/218596797-038f2d13-a847-4043-aaeb-7766a5306010.png)
