@@ -9,5 +9,5 @@ class Views(containers.DeclarativeContainer):
     battle_sequence = providers.Singleton(battle_sequence_view.BattleSequenceView, change_pokemon)
     choose_opponent = providers.Singleton(choose_opponent_view.ChooseOpponentView)
     choose_pokemon = providers.Singleton(choose_pokemon_view.ChoosePokemonView)
-    team_overview = providers.Singleton(team_overview_view.TeamOverviewView, choose_pokemon)
+    team_overview = providers.Singleton(team_overview_view.TeamOverviewView)
     main_menu = providers.Singleton(main_menu_view.MainMenuView, team_overview)

@@ -1,19 +1,11 @@
-from dependency_injector.wiring import Provide, inject
-
 from ..utility.singleton_meta import SingletonMeta
 from ..utility.terminal import clear_screen
 
-from .choose_pokemon_view import ChoosePokemonView
-
 
 class TeamOverviewView(metaclass=SingletonMeta):
-    @inject
-    def __init__(self,
-                 _choose_pokemon_view: ChoosePokemonView = Provide[ChoosePokemonView]):
-        self.choose_pokemon_view = _choose_pokemon_view
+    def __init__(self):
         self.main_menu_view = None
         self.player_controller = None
-        self.choose_pokemon_view.set_team_overview_view(self)
 
     def display_team_overview(self):
         clear_screen()

@@ -43,12 +43,12 @@ There are a number of aspects of the code that are important. An important aspec
 
 ## Design
 
-![image](https://user-images.githubusercontent.com/49392728/218590988-12371936-3e16-40b8-85c6-61fed2ec686f.png)
+![design.png](docs%2Fdesign.png)
 
 ## Class Diagram
 
-![class_diagram](https://user-images.githubusercontent.com/49392728/218596214-919c13f6-f876-480e-8b8f-f523abc67c27.png)
+![class_diagram.png](docs%2Fclass_diagram.png)
 
 ## Smaller Overview Class Diagram
 
-![smaller_class_diagram](https://user-images.githubusercontent.com/49392728/218596797-038f2d13-a847-4043-aaeb-7766a5306010.png)
+![smaller_class_diagram.png](docs%2Fsmaller_class_diagram.png)

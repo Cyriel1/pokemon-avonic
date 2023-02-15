@@ -7,7 +7,6 @@ from .base.pokemons_list_view import PokemonsListView
 class ChoosePokemonView(PokemonsListView, metaclass=SingletonMeta):
     def __init__(self):
         super().__init__()
-        self.team_overview_view = None
         self.player_controller = None
 
     def display_choose_pokemon(self):
@@ -50,7 +49,3 @@ class ChoosePokemonView(PokemonsListView, metaclass=SingletonMeta):
 
     def set_player_controller(self, _player_controller):
         self.player_controller = _player_controller
-
-    # Setter instead of DI to avoid circular imports
-    def set_team_overview_view(self, _team_overview_view):
-        self.team_overview_view = _team_overview_view
